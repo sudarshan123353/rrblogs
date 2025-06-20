@@ -1,0 +1,406 @@
+@charset "UTF-8";
+/*
+Theme Name: Personal Coach Lite
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/products/free-coach-wordpress-theme
+Author URI: https://www.themagnifico.net/
+Description: The Personal Coach Lite WordPress Theme is a streamlined, responsive, and user-friendly solution designed specifically for personal trainers, fitness coaches, wellness mentors, health consultants, strength and conditioning specialists, and online fitness professionals aiming to build a powerful online presence. Perfect for offering personalised fitness plans, weight loss coaching, post-injury rehabilitation, high-intensity interval training (HIIT), sports-specific conditioning, flexibility improvement, and nutrition-focused programs, this theme provides an ideal platform to promote one-on-one coaching, virtual fitness classes, fitness bootcamps, and tailored workout sessions. It features a modern, minimal design with customizable sections for showcasing client success stories, testimonials, training certifications, fitness blogs, coaching packages, and transformation galleries. Its mobile-friendly and retina-ready layout ensures smooth performance on all devices, making it easy for clients to connect, schedule sessions, or follow fitness tips on the go. Additional features support integration of meal plans, progress tracking tools, customizable workout calendars, and email newsletter sign-ups. Whether you're a holistic lifestyle coach, a certified personal trainer, or a fitness influencer building a brand, the SEO-optimized and fast-loading Personal Coach Lite WordPress Theme offers everything you need to market your services, engage with clients, and grow your coaching business online.
+Version: 0.1.0
+Tested up to: 6.7
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: lms-education-study
+Text Domain: personal-coach-lite
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, portfolio, education
+
+Personal Coach Lite WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2024.
+Personal Coach Lite WordPress Theme is released under the terms of GNU GPL
+*/
+ .bypostauthor{}
+#top-slider,.page-template-home-template #masthead{
+    background: linear-gradient(98.33deg, #FFF1E4 0.25%, #D8FFF8 97.13%);
+    clip-path: none;
+}
+.slider-image img.sider-img.default-img{
+    object-fit: unset;
+}
+aside#pages ul li:hover {
+    color: #055346;
+}
+.box-icon{
+    background: #7D20FF !important;
+    color: #fff !important;
+}
+h5.box-title{
+    color: #7D20FF !important;
+}
+h5.main-title i {
+    font-size: 28px;
+}
+.load hr {
+    background: #055346;
+}
+.article-box {
+    background: #fffdfc;
+}
+.wp-block-button__link{
+    color: #000 !important;
+}
+#top-slider:before {
+    background: url(assets/img/slider-after.png) no-repeat;
+    width: 439px;
+    background-size: 100% 100%;
+    z-index: 1;
+    bottom: 0;
+}
+.about-image:after {
+    content: "";
+    position: absolute;
+    top: 28%;
+    height: 74px;
+    background: url(assets/img/circle.jpg) no-repeat;
+    width: 74px;
+    z-index: 0;
+    left: 0%;
+    background-size: 100% 100%;
+    z-index: 1;
+    bottom: 0;
+}
+.about-image img.about-img-small {
+    z-index: 2;
+}
+.site-navigation .primary-menu ul li a:hover, .site-navigation .primary-menu ul li a:focus,button.button-offcanvas-close, span.navbar-control-trigger i, .featured .about-btn a, .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .pro-button a, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt.disabled, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .wp-block-button__link, .sidebar .tagcloud a:hover, .sidebar h5, .comment-respond input#submit, a.btn-text, .search-form-main input.search-submit, .sidebar input[type="submit"], .sidebar button[type="submit"], #colophon, span.head-btn a, #top-slider .slide-btn a, .box-icon, .site-navigation ul.primary-menu.theme-menu li a:hover, .main-navigation .menu > li > a:focus, #button, .navigation.pagination .nav-links a.current, .navigation.pagination .nav-links a:hover, .navigation.pagination .nav-links span.current, .navigation.pagination .nav-links span:hover {
+    background: #F3C395;    
+}
+.wp-block-button.is-style-outline .wp-block-button__link ,.wp-block-button__link{
+    background: #F3C395 !important;
+}
+.woocommerce-message::before, .woocommerce-info::before, p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .sidebar ul li a:hover, a, .article-box a, h5.box-title,a,.woocommerce-message::before, .woocommerce-info::before{
+    color: #F3C395;
+}
+.woocommerce-message, .woocommerce-info, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .wp-block-button.is-style-outline .wp-block-button__link, .navigation.pagination .nav-links a.current, .navigation.pagination .nav-links a:hover, .navigation.pagination .nav-links span.current, .navigation.pagination .nav-links span:hover{
+    border-color: #F3C395;
+}
+h5.main-title, .navbar-brand a, h5.slider-short, #top-slider span.last_slide_head{
+    color: #055346;
+}
+.bottom-header-box,.contact-box,.site-navigation .primary-menu ul{
+    background: #055346;
+}
+.site-navigation .primary-menu > li a,.site-navigation .primary-menu > li > a, .link-icon-wrapper a{
+    font-weight: 600;
+}
+.article-box a.btn-text,.site-navigation .primary-menu ul li a:focus, .navigation.pagination .nav-links a.current, .navigation.pagination .nav-links a:hover, .navigation.pagination .nav-links span.current, .navigation.pagination .nav-links span:hover {
+    color: #000000 !important;
+}
+#colophon a:hover, #colophon a:focus,a:hover{
+    color: #055346;
+}
+.footer-column {
+    border-bottom: 1px solid #000000;
+    color: #fff;
+}
+#colophon .footer-column .widget-title,#colophon .footer-column a{
+    color: #fff;
+}
+.widget #wp-calendar caption, #colophon a, #colophon h5,button.button-offcanvas-close, span.navbar-control-trigger i, .featured .about-btn a, .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .pro-button a, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt.disabled, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .wp-block-button__link, .sidebar .tagcloud a:hover, .sidebar h5, .comment-respond input#submit, a.btn-text, .search-form-main input.search-submit, .sidebar input[type="submit"], .sidebar button[type="submit"], #colophon, span.head-btn a, #top-slider .slide-btn a, .box-icon, .site-navigation ul.primary-menu.theme-menu li a:hover, .main-navigation .menu > li > a:focus, #button{
+    color: #000000;
+}
+.main-slider {
+    bottom: 9%;
+}
+.top-header {
+    border-radius: 45px 45px 0px 0px;
+    padding: 0px 25px;
+    background: #055346;
+}
+#top-slider .slider-inner-box .image-box-3-heading p{
+    color: #484848 !important;
+}
+#top-slider{
+    height: 700px;
+}
+.contact-box {
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+}
+.site-navigation .primary-menu > li a {
+    font-size: 14px;
+    display: inline-block;
+}
+.site-navigation li.menu-item-has-children a, .site-navigation ul.primary-menu.theme-menu li.menu-item-has-children a:hover {
+    padding: 10px 25px 10px 15px ;
+}
+.link-icon-wrapper i {
+    position: relative;
+    left: -20px;
+}
+.site-navigation ul.primary-menu.theme-menu li a:hover, .main-navigation .menu > li > a:focus{
+    color: #000 !important;
+}
+span.head-btn a {
+    padding: 10px 20px;
+    color: #000000;
+}
+.about-btn a:hover,span.head-btn a:hover{
+    background: #055346;
+    color: #fff;
+}
+.service-image img {
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.top-info .social-link{
+    text-align: right;
+}
+.top-info .social-link a i {
+    padding: 8px 6px;
+}
+.top-info, .top-info-1 {
+    width: 82%;
+}
+#top-slider .slide-btn a:hover{
+    background: #055346;
+}
+#top-slider .slide-btn a {
+    padding: 12px 35px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 30px;
+}
+.image-box-1 i{
+    color: #fff;
+}
+.image-box-2{
+    background: #27AE60;
+    border-radius: 12px;
+    right: auto;
+    top: auto;
+    bottom: 10%;
+    left: 250px;
+}
+.image-box-2-icon i,.image-box-2 h6.contact-text,.image-box-2 p{
+    color: #fff;
+}
+.image-box-1 h6.contact-text,.image-box-1 p {
+    color: #fff;
+}
+.image-box-1{
+    background: #FD562A;
+    border-radius: 12px;
+    padding: 16px 20px;
+}
+.image-box-3 {
+    border-radius: 30px;
+    position: static;
+    display: inline-block;
+    margin-left: 10px;
+    width: 240px;
+    padding: 3px 12px;
+}
+.contact {
+    text-align: left;
+}
+.btn-team {
+    display: flex;
+    gap: 15px;
+}
+.slide-btn a {
+    display: inline-block;
+}
+.image-box-3-heading {
+    display: flex;
+    gap: 5px;
+}
+.image-box-3-heading img, .btn-team .slide-btn, .btn-team .image-box-3 {
+    align-self: center;
+}
+#top-slider .slider-inner-box .image-box-3-heading p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #5E462E;
+    padding-top: 8px;
+}
+.feature-box {
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+    border-radius: 15px;
+}
+.feature-img img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+.ser-content h4 a {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+}
+#top-slider .slider-inner-box p {
+    max-width: 70%;
+    line-height: 1.5;
+}
+.ser-content span.category-div {
+    font-family: Just Another Hand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #484848;
+}
+.star-rating {
+    font-size: 20px; 
+    color: #ddd;
+}
+.star-rating .star {
+    color: gold; 
+    cursor: pointer;
+}
+#top-slider .slide-btn a:focus-visible, a:focus-visible {
+    outline-offset: 1px;
+}
+.star-rating span:hover ~ span {
+    color: #ddd; 
+}
+.star-rating span:hover {
+    color: gold;
+}
+p.couse-time,p.couse-student {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15.73px;
+    text-align: left;
+}
+.time-box{
+    margin: 0px;
+}
+.featured h3.main-heading {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #000000;
+}
+section#event-sec {
+    background: #fffbf7;
+}
+.featured h4.main-heading {
+    color: #055346;
+    letter-spacing: 1px;
+    font-family: Just Another Hand;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+span.course-rating,.course-price h6 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 19.36px;
+    color: #484848;
+}
+.rating-box.row {
+    border: 1.5px dotted #484848;
+    border-radius: 30px;
+    margin: 0px;
+}
+.course-price.align-self-center {
+    padding: 12px;
+    border-left: 1.5px dotted;
+}
+p.couse-time i {
+    color: #7D20FF;
+    margin-right: 10px;
+}
+p.couse-student i {
+    color: #FD562A;
+    margin-right: 10px;
+}
+p.couse-student {
+    text-align: right;
+}
+@media screen and (max-width: 1024px) {
+    .top-info .top-header .contact a, .phone-box {
+        font-size: 13px;
+    }
+    .btn-team {
+        display: block;
+    }
+    .image-box-3 {
+        margin-left: 0;
+    }
+    
+    .mail-box, #colophon h5, #colophon aside, #colophon p, #colophon ul  {
+        text-align: center;
+    }
+    #top-slider .slider-inner-box .image-box-3-heading p {
+        display: block;
+    }
+    .main-slider {
+        bottom: 4%;
+    }
+    .row.nav-box {
+        padding: 10px 30px;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px){
+    span.head-btn a{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .main-slider {
+        position: relative;
+    }
+    .slider-image img.sider-img {
+        width: 100% !important;
+        height: auto;
+    }
+    #top-slider {
+        height: auto;
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .image-box-1, .image-box-2 {
+        position: static;
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .slider-image img.sider-img {
+        width: 100% !important;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 575px){
+    .ser-heading{
+        text-align: center !important;
+    }
+    .slider-image img.sider-img {
+        width: 100% !important;
+        height: auto;
+        object-fit: unset;
+    }
+    .image-box-1, .image-box-2 {
+        position: static;
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .service-box{
+        justify-content: center;
+    }
+}
